@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.header-container{
+    background-image: url(Images/khamkeo-EAVCUS_O8NA-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.presentation-container{
+    float: left;
+    padding: 10px;
+}
+.buttons{
+    display: flex;
+
+}
+.btn-1, .btn-2, .btn-3{
+    display: inline-block;
+    padding: 11px 35px;
+    border: 2px solid #222222;
+    border-radius: 25px;
+    margin-right: 25px;
+    font-size: 17px;
+    color: white;
+
+}
+
+.popular-content{
+    padding: 100px;
+    text-align: center;
+
+}
+h2{
+    color: #222222;
+    font-size: 35px;
+    margin-bottom: 45px;
+}
+.popular-content{
+    display: flex;
+    justify-content: space-between;
+}
+.popular-content img{
+    width: 150px;
+
+} 
+.product-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;  
+}
+.product-1{
+    background-color: #444444;
+}
+.product-txt{
+    padding: 50px 30px;
+}
+h3{
+    font-size: 40px;
+    color: #222222;
+    margin-bottom: 20px
+}
+p{
+    font-size: 30px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price p{
+    font-size: 25px;
+    color:antiquewhite;
+}
+.btn-2{
+    padding: 5px 25px;
+    background-color:#222222;
+    margin-right: 0;
+}
+
+body{
+    letter-spacing: 1px;
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    background-color: #888888;
+}
+
+header{
+    text-align: center
+}
+h2{
+    color: #ffffff;
+}
+
+
+.titulo{
+        flex: auto;
+        text-align: center;
+        letter-spacing: 8px;
+        color:rgb(211, 207, 201);
+
+}
+  
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    text-decoration: none;
+    list-style: none;
+    background-color: #222222;
+    color: aliceblue;
+    border: 2px solid black;
+    padding: 7px;
+    border-radius: 5px;
+    margin-right: 3px;
+}
+nav ul li:hover{
+    background-color: aliceblue;
+    color: #b1c7b9;
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+nav ul li a:hover{
+    color: #000000;
+}
+
+
+aside{
+    float: left;
+    width: 30%;
+
+
+    background-color: #444444;
+    text-align: justify;
+}
+aside p{
+    color: darkgray;
+    float: left;
+}
+section{
+    float: right;
+    width: 70%;
+    background-color: #666666;
+    text-decoration-color: #b3d4a8;
+    
+
+} 
+.producto{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+}  
+footer{
+    background-color: #989898;
+    text-align: center;
+    padding: 10px;
+
+
+}
+@media screen and (max-width: 1024px){
+    .section{
+        width: 70%;
+    }
+    .aside{
+        width: 30%;
+    }
+
+}
+@media screen and (max-width: 767px){
+    .section{
+        width: 70%;
+    }
+    .aside{
+        width: 30%;
+    }
+    
+}
